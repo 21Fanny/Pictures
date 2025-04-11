@@ -6,7 +6,7 @@ const ImageList = ({images}) => {
         return <ImageShow key={image.id} image={image} />
     })
     return (
-        <div className="Image-list">
+        <div className="image-list">
             {renderImage}
         </div>
     )
